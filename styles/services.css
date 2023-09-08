@@ -1,0 +1,43 @@
+.services__list {
+    margin-bottom: 150px;
+}
+
+.services__title {
+    font-size: 35px;
+    width: 378px;
+    margin-bottom: 80px;
+}
+
+
+.service__item {
+    margin-bottom: 40px;
+}
+
+.service__item:last-child {
+    margin-bottom: 0px;
+}
+
+.service__img {
+    width: 100%;
+}
+
+.service__wrapper {
+    height: 283px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #191C19;
+    border-radius: 30px;
+    padding: 40px
+}
+
+.service__wrapper-title {
+    width: 411px;
+    font-size: 55px;
+    line-height: 110%;
+    color: springgreen;
+}
+
+.service__wrapper-info {
+    width: 525px;
+    font-size: 22px;
+}

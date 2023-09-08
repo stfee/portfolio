@@ -1,0 +1,64 @@
+.skills__title {
+    font-size: 55px;
+    margin-bottom: 139px;
+}
+
+.skills__list-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 99px;
+    margin-bottom: 150px;
+}
+
+.skill__item {
+    width: calc(50% - 5px);
+    position: relative;
+
+}
+
+.skill__item::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    background-position: 50% 50%;
+    background-color: springgreen;
+    bottom: 105%;
+
+}
+
+.skill__name {
+    font-size: 35px;
+    color: springgreen;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+
+
+.skill__item-html::before {
+    background-image: url('../resources/html_logo.png');
+    background-repeat: no-repeat;
+}
+
+.skill__item-JavaScript::before {
+    background-image: url('../resources/js_logo.png');
+    background-repeat: no-repeat;
+}
+
+.skill__item-framework::before {
+    background-image: url('../resources/frame_logo.png');
+    background-repeat: no-repeat;
+}
+
+.skill__item-adaptive::before {
+    background-image: url('../resources/mobile_logo.png');
+    background-repeat: no-repeat;
+}
+
+.skill__info {
+    font-size: 22px;
+}

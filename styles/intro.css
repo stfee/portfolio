@@ -1,0 +1,20 @@
+.intro__inner {
+    background: url('../resources/background_intro.jpg') no-repeat center;
+    background-size: cover;
+}
+
+
+.intro__inner-info {
+    max-width: 430px;
+    font-size: 20px;
+    margin-bottom: 29px;
+    padding-top: 334px;
+}
+
+.intro__inner-title {
+    max-width: 919px;
+    font-size: 80px;
+    line-height: 70px;
+    color: springgreen;
+    padding-bottom: 94px;
+}

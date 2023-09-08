@@ -1,0 +1,57 @@
+.contacts {
+    background: #191C19;
+    border-radius: 30px;
+    background-image: url('../resources/background_footer.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 100px;
+
+}
+
+.contacts__title {
+    width: 391px;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 60px;
+}
+
+.input {
+    font-size: 22px;
+    max-width: 567px;
+    color: white;
+    width: 100%;
+    height: 60px;
+    padding-left: 40px;
+    display: block;
+    background-color: #3B3D3B;
+    border-radius: 100px;
+    border-style: unset;
+    margin-bottom: 26px;
+
+}
+
+
+.input__last-item {
+    margin-bottom: 60px;
+}
+
+.contacts__button {
+    font-size: 22px;
+    text-align: center;
+    width: 450px;
+    height: 70px;
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.75s;
+    background-color: springgreen;
+    border: 2px solid springgreen;
+    border-radius: 10px;
+    margin-bottom: 111px;
+}
+
+.contacts__button:hover {
+    border: 2px solid springgreen;
+    background-color: black;
+    color: springgreen;
+    transition-duration: 0.75s
+}

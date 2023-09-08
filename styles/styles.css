@@ -1,0 +1,41 @@
+@import 'intro.css';
+@import 'header.css';
+@import 'projects.css';
+@import 'skills.css';
+@import 'services.css';
+@import 'contacts.css';
+@import 'footer.css';
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+
+}
+
+section,
+.header,
+.main,
+.footer {
+    background-color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+p,
+img,
+li,
+button,
+section {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: -0.03em;
+    line-height: normal;
+    color: white;
+}
