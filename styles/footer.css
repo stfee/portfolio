@@ -24,8 +24,6 @@
 
 }
 
-.footer__contacts-list {}
-
 .footer__item {
     display: inline-block;
     margin-right: 24px;
@@ -40,6 +38,10 @@
     font-size: 22px;
     color: black;
     text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: revert;
 }
 
 .footer__info {

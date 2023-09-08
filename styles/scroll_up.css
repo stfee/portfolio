@@ -1,0 +1,18 @@
+.scroll_up {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url('../resources/btn_up.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: springgreen;
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}

@@ -31,19 +31,19 @@
                 <nav class="navigation">
                     <ul class="navigation__list">
                         <li class="navigation__list-item">
-                            <a class="navigation__link" href="/">портфолио</a>
+                            <a class="navigation__link" href="#projects">портфолио</a>
                         </li>
 
                         <li class="navigation__list-item">
-                            <a class="navigation__link" href="/">компетенции</a>
+                            <a class="navigation__link" href="#skills">компетенции</a>
                         </li>
 
                         <li class="navigation__list-item">
-                            <a class="navigation__link" href="/">услуги</a>
+                            <a class="navigation__link" href="#services">услуги</a>
                         </li>
 
                         <li class="navigation__list-item">
-                            <a class="navigation__link" href="/">контакты</a>
+                            <a class="navigation__link" href="#contacts">контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -62,13 +62,13 @@
             </div>
         </section>
 
-        <section class="projects">
+        <section class="projects" id="projects">
             <div class="container">
                 <h2 class="projects__title">Самые свежие проекты</h2>
 
                 <div class="projects__list">
                     <div class="project">
-                        <a class="project__link" href="https://stfee.github.io/git-github.com-stfee-Metrika/">
+                        <a class="project__link" href="https://stfee.github.io/Metrika/">
                             <img class="project__img" src="resources/metrika.png" alt="Метрика">
                             <h3 class="project__headline">Дизайн интерьера</h3>
                             <p class="project__text">Метрика </br> Вёрстка, настройка</p>
@@ -76,18 +76,18 @@
                     </div>
 
                     <div class="project">
-                        <a class="project__link" href="https://stfee.github.io/git-github.com-stfee-Metrika/">
+                        <a class="project__link" href="https://stfee.github.io/Metrika/">
                             <img class="project__img" src="resources/v_razrabotke.jpg" alt="Код на компьютере">
                             <h3 class="project__headline">В разработке ...</h3>
                             <p class="project__text"></p>
                         </a>
                     </div>
                 </div>
-                <a class="projects__button" href="/">Смотреть все проекты</a>
+                <a class="projects__button" href="#projects">Смотреть все проекты</a>
             </div>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="container">
                 <h2 class="skills__title">Мои компетенции</h2>
 
@@ -129,7 +129,7 @@
             </div>
         </section>
 
-        <section class="services">
+        <section class="services" id="services">
             <div class="container">
                 <h2 class="services__title">Помогаю реализовать широкий спектр задач</h2>
 
@@ -170,7 +170,7 @@
             </div>
         </section>
 
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <div class="container container__contacts">
                 <h2 class="contacts__title">Для связи со мной заполните простую форму</h2>
                 <form class="contacts__form" action="#">
@@ -210,6 +210,10 @@
         </section>
     </footer>
 
+    <!--Скролл вверх-->
+    <button class="scroll_up" id="scroll_up"></button>
+
+    <script src="../js/scroll_up.js"></script>
 
 </body>
 
