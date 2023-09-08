@@ -6,11 +6,16 @@
 .container__footer {
     padding-top: 76px;
     padding-bottom: 74px;
-    width: calc(50% - 5px);
+}
+
+.footer__wrapper {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    row-gap: 66px;
+    margin-bottom: 66px;
+}
+
+.footer__wrapper:last-child {
+    margin-bottom: 0px;
 }
 
 .footer__title {
