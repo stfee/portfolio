@@ -32,6 +32,7 @@
 
 .skill__name {
     font-size: 35px;
+    letter-spacing: 3px;
     color: springgreen;
     line-height: 40px;
     margin-bottom: 15px;
@@ -61,4 +62,29 @@
 
 .skill__info {
     font-size: 22px;
+    letter-spacing: -0.5px;
+}
+
+@media (max-width: 1199px) {
+    .skills__title {
+        font-size: 45px;
+        margin-bottom: 106px;
+    }
+
+
+    .skill__item::before {
+        width: 36px;
+        height: 36px;
+    }
+
+    .skill__name {
+        font-size: 26px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+
+
+    .skill__info {
+        font-size: 22px;
+    }
 }

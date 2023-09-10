@@ -50,3 +50,25 @@
     opacity: 0.5;
 
 }
+
+@media (max-width: 1199px) {
+    .container__footer:last-child {
+        padding: 51px 40px 20px 40px;
+    }
+
+    .footer__title {
+        font-size: 16px;
+    }
+
+    .footer__link {
+        font-size: 16px;
+    }
+
+    .footer__info {
+        font-size: 16px;
+    }
+
+    .footer__wrapper {
+        margin-bottom: 43px;
+    }
+}

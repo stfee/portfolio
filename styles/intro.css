@@ -15,6 +15,20 @@
     max-width: 919px;
     font-size: 80px;
     line-height: 70px;
+    letter-spacing: 5px;
     color: springgreen;
     padding-bottom: 94px;
+}
+
+@media (max-width: 1199px) {
+    .intro__inner-info {
+        padding-top: 368px;
+    }
+
+    .intro__inner-title {
+        max-width: 727px;
+        font-size: 55px;
+        letter-spacing: 5px;
+        padding-bottom: 60px;
+    }
 }
