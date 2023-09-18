@@ -1,0 +1,98 @@
+.body_fixed {
+    overflow: hidden;
+}
+
+.burger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s all;
+}
+
+.burger_open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.burger__content {
+    width: 35%;
+    height: 100%;
+    background-color: black;
+    overflow-y: auto;
+}
+
+.burger-btn {
+    display: none;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+
+    z-index: 100;
+    margin-top: 9.4px;
+    margin-right: 20px;
+}
+
+.burger-btn span {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: springgreen;
+    transition: 0.3s all;
+}
+
+.burger-btn span::before,
+.burger-btn span::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: springgreen;
+    transition: 0.3s all;
+}
+
+.burger-btn span::before {
+    transform: translateY(-8px);
+}
+
+.burger-btn span::after {
+    transform: translateY(8px);
+}
+
+/* анимация при наведении */
+.burger-btn:hover span {
+    background-color: transparent;
+}
+
+.burger-btn:hover span::before {
+    transform: rotate(45deg);
+}
+
+.burger-btn:hover span::after {
+    transform: rotate(-45deg);
+}
+
+
+
+@media (max-width: 1199px) {
+    .navigation {
+        visibility: hidden;
+    }
+
+
+    .burger-btn {
+        display: flex;
+    }
+
+}

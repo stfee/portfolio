@@ -6,6 +6,7 @@
 @import 'contacts.css';
 @import 'footer.css';
 @import 'scroll_up.css';
+@import 'burger.css';
 
 html {
     scroll-behavior: smooth;
