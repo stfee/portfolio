@@ -64,15 +64,18 @@
 
 .burger-btn span::before {
     transform: translateY(-8px);
+
 }
 
 .burger-btn span::after {
     transform: translateY(8px);
+
 }
 
-/* анимация при наведении */
+
 .burger-btn:hover span {
     background-color: transparent;
+
 }
 
 .burger-btn:hover span::before {
@@ -93,6 +96,105 @@
 
     .burger-btn {
         display: flex;
+
     }
 
+    .burger__content {
+        padding-left: 37px;
+        padding-top: 64px;
+    }
+
+    .burger__logo__img {
+        width: 130px;
+        height: 50px;
+        border-radius: 30px;
+        margin-bottom: 44px;
+    }
+
+    .burger__navigation {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 91px;
+    }
+
+    .burger__navigation__link {
+        font-size: 25px;
+        letter-spacing: -0.75px;
+        color: springgreen;
+        text-decoration: none;
+        margin-bottom: 21px;
+    }
+
+    .burger__navigation__link:last-child {
+        margin-bottom: 0;
+    }
+
+    .burger__contacts-title {
+        font-size: 18px;
+        opacity: 0.5;
+        letter-spacing: -0.5px;
+        margin-bottom: 10px;
+    }
+
+    .burger__contacts-telegram,
+    .burger__contacts-email {
+        font-size: 20px;
+        text-decoration: none;
+        cursor: pointer;
+        padding-bottom: 8px;
+    }
+
+    .burger__contacts-email {
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .burger__content {
+        padding-left: 15px;
+        padding-top: 90px;
+    }
+
+    .burger__logo__img {
+        width: 100px;
+        height: 42px;
+        margin-bottom: 30px;
+    }
+
+    .burger__navigation__link {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    .burger__navigation {
+        margin-bottom: 70px;
+    }
+
+    .burger__contacts-title {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .burger__contacts-telegram,
+    .burger__contacts-email {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .burger-btn {
+        width: 20px;
+        height: 20px;
+    }
+
+    .burger-btn span {
+        height: 1.7px;
+    }
+
+    .burger-btn span::before,
+    .burger-btn span::after {
+        height: 1.7px;
+    }
 }

@@ -88,3 +88,27 @@
         font-size: 22px;
     }
 }
+
+@media (max-width: 767px) {
+    .skills__title {
+        font-size: 30px;
+    }
+
+    .skills__list-item {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-bottom: 100px;
+    }
+
+    .skill__item {
+        width: 100%;
+    }
+
+    .skill__item::before {
+        bottom: 101%;
+    }
+
+    .skill__name {
+        letter-spacing: 1px;
+    }
+}

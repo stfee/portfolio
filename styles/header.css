@@ -63,3 +63,21 @@
         padding-right: 0;
     }
 }
+
+@media (max-width: 767px) {
+    .container__header__inner {
+        height: 58px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container__header__inner {
+        height: 43px;
+    }
+
+    .logo__img {
+        width: 95px;
+        height: 35px;
+
+    }
+}

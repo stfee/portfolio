@@ -94,3 +94,33 @@
         margin-bottom: 86px;
     }
 }
+
+@media (max-width: 767px) {
+    .contacts {
+        border-radius: 0px;
+        background-image: none;
+        padding-top: 50px;
+    }
+
+    .contacts__title {
+        width: 100%;
+        letter-spacing: 4px;
+        max-width: 400px;
+        font-size: 35px;
+        margin-left: 0px;
+    }
+
+    .input {
+        font-size: 15px;
+        width: 85%;
+        margin-left: 0px;
+    }
+
+    .contacts__button {
+        width: 100%;
+        letter-spacing: 2px;
+        font-size: 15px;
+        margin-left: 0px;
+        margin-bottom: 52px;
+    }
+}
